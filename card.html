@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this Is E comarse Apps">
+    <title>FF Stor</title>
+    <link rel="stylesheet" href="style.css">
+     <!-- font Awesom cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <!--Navbar starts here -->
+
+    <i class="fas fa-bars fa-2x" id="menu-icon"></i> 
+     
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html"
+                class="nav-link">Home</a> </li>
+           
+           <li class="nav-list">
+                 <a href="register.html"
+                 class="nav-link">Registion</a> </li>  
+            
+           <li class="nav-list">
+                <a href="login.html"
+                 class="nav-link">Login</a> </li>
+                    
+           <li class="nav-list">
+                     <a href="index.html" 
+                    class="nav-link">Logout</a> </li>
+
+           <li class="nav-list">
+                         <a href="contact.html"
+                        class="nav-link">contact</a> </li>  
+
+            <li class="nav-list">
+                        <a href="profile.html"
+                       class="nav-link">
+                      <img class="profile-icon" 
+                      src="/image/profile1.png" 
+                       alt="profile icon"></a> 
+                    </li>             
+        </ul>
+
+
+        <ul class="nav-lower flex-space-around">
+          <li class="nav-brand nav-list">
+           <a href="index.html"
+           class="nav-link">FF Stor</a>
+        </li>
+
+        <li class="nav-list">
+             <a href="card.html" 
+             class="nav-link">
+            <span><i class="fa-solid fa-cart-shopping"></i></span>
+           card 2 products - $124.40 </a>
+          </li>
+
+        </ul>
+
+    </nav>
+    <!--Navbar ends here -->
+    
+
+    <!-- main start here -->
+
+    <main>
+        <div class="cart flex-center">
+            <div class="cart-items">
+                <div class="cart-items-heading card">
+                    <h2>Shopping Cart [2 items]</h2>
+                    <div class="cart-items-action">
+                        <label for="select">
+                            <input type="checkbox"
+                            name="select"
+                            id="select">
+                            select All Items
+                        </label>
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <button class="btn">Shop More</button>
+                    </div>
+                </div>
+
+                <div class="cart-item card flex-space-around">
+                    <input type="checkbox" name="" id="">
+                    <img src="/image/product1" alt="product1" class="cart-item-img">
+                    <div class="cart-item-description">
+                        <h3 class="product-name">sony V-4 Headphone</h3>
+                        <h4 class="product-price">price: $225.99</h4>
+                        <p class="cart-item-shipping">Free shipping</p>
+                    </div>
+                    <div class="cart-item-actions">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <div>
+                            <button class="btn">
+                                <i class="fas fa-add"></i>
+                            </button>
+                            <span>3</span>
+                            <button class="btn">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cart-item card flex-space-around">
+                    <input type="checkbox" name="" id="">
+                    <img src="/image/product2" alt="product2" class="cart-item-img">
+                    <div class="cart-item-description">
+                        <h3 class="product-name">Apple Smart Watch</h3>
+                        <h4 class="product-price">price: $125.99</h4>
+                        <p class="cart-item-shipping">shipping Cost $2.50</p>
+                    </div>
+                    <div class="cart-item-actions">
+                        <button class="btn">
+                            <i class="fas fa-trash-alt"></i>
+                        </button>
+                        <div>
+                            <button class="btn">
+                                <i class="fas fa-add"></i>
+                            </button>
+                            <span>1</span>
+                            <button class="btn">
+                                <i class="fas fa-minus"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="cart-payment">
+                <div class="cart-payment-summary cart">
+                    <h2>Payment summary</h2>
+                    <div>
+                        <p>Subtotal:</p>
+                        <p>$341.44</p>
+                    </div>
+
+                    <div>
+                        <p>Shipping Cost:</p>
+                        <p>$2.50</p>
+                    </div>
+
+                    <div>
+                        <p>Total Cost:</p>
+                        <p>$344.38</p>
+                    </div>
+                    <button class="btn cart-payment-btn">Pay Now</button>
+                </div>
+
+                <div class="cart-payment-methods cart">
+                    <h2>Payment Methods</h2>
+                    <div>
+                    <i class="fa-brands fa-cc-visa fa-3x"></i>
+                    <i class="fa-brands fa-cc-apple-pay fa-3x"></i>
+                    <i class="fa-brands fa-cc-amex fa-3x"></i>
+                    <i class="fa-brands fa-cc-amazon-pay fa-3x"></i>
+                    <i class="fa-brands fa-cc-paypal fa-3x"></i>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- main Ends here-->
+
+    <!--Footer start here-->
+
+    <footer class="footer flex-space-around">
+        <div class="footer flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address ">
+
+            <button class="btn btn-subscribe">
+                Subscribe
+            </button>
+        </div>
+
+        <div>
+            <p>&copy;copyright 2024 FF Stor. All right rseved </p>
+        </div>
+    </footer>
+
+    <!--footer ends Here-->
+    <script src="./scripets/index.js"></script>
+</body>
+</html>
